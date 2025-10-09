@@ -15,6 +15,6 @@ int main() {
     std::cout << "CPU time used: " << cpu_time_used << " s\n";
     for(auto result:results)
     cout << result;
-    std::cout<< endl;
+    std::cout << time(0) << endl;
     return 0;
 }
