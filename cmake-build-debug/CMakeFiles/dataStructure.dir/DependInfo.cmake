@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/19642/CLionProjects/dataStructure/hash.cpp" "CMakeFiles/dataStructure.dir/hash.cpp.obj" "gcc" "CMakeFiles/dataStructure.dir/hash.cpp.obj.d"
   "C:/Users/19642/CLionProjects/dataStructure/main.cpp" "CMakeFiles/dataStructure.dir/main.cpp.obj" "gcc" "CMakeFiles/dataStructure.dir/main.cpp.obj.d"
+  "C:/Users/19642/CLionProjects/dataStructure/stackl.cpp" "CMakeFiles/dataStructure.dir/stackl.cpp.obj" "gcc" "CMakeFiles/dataStructure.dir/stackl.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

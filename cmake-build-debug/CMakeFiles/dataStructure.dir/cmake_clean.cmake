@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dataStructure.dir/hash.cpp.obj.d"
   "CMakeFiles/dataStructure.dir/main.cpp.obj"
   "CMakeFiles/dataStructure.dir/main.cpp.obj.d"
+  "CMakeFiles/dataStructure.dir/stackl.cpp.obj"
+  "CMakeFiles/dataStructure.dir/stackl.cpp.obj.d"
   "dataStructure.exe"
   "dataStructure.exe.manifest"
   "dataStructure.pdb"

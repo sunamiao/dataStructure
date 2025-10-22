@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(dataStructure main.cpp
 
         hash.cpp
-        hash.h)
+        hash.h
+        stackl.cpp
+        stackl.h)

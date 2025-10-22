@@ -176,6 +176,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+stackl.obj: stackl.cpp.obj
+.PHONY : stackl.obj
+
+# target to build an object file
+stackl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/stackl.cpp.obj
+.PHONY : stackl.cpp.obj
+
+stackl.i: stackl.cpp.i
+.PHONY : stackl.i
+
+# target to preprocess a source file
+stackl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/stackl.cpp.i
+.PHONY : stackl.cpp.i
+
+stackl.s: stackl.cpp.s
+.PHONY : stackl.s
+
+# target to generate assembly for a file
+stackl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/stackl.cpp.s
+.PHONY : stackl.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... stackl.obj
+	@echo ... stackl.i
+	@echo ... stackl.s
 .PHONY : help
 
 
