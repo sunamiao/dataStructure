@@ -62,3 +62,6 @@ public:
 #endif // HASHTBLE_H
 ```
 
+## 栈
+双指针和栈都可以
+
