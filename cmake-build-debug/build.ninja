@@ -79,6 +79,45 @@ build dataStructure.exe: CXX_EXECUTABLE_LINKER__dataStructure_Debug CMakeFiles/d
   TARGET_IMPLIB = libdataStructure.dll.a
   TARGET_PDB = dataStructure.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target linkedList
+
+
+#############################################
+# Order-only phony target for linkedList
+
+build cmake_object_order_depends_target_linkedList: phony || CMakeFiles/linkedList.dir
+
+build CMakeFiles/linkedList.dir/linked_list/linkedList.cpp.obj: CXX_COMPILER__linkedList_unscanned_Debug E$:/CLionProjects/dataStructure/linked_list/linkedList.cpp || cmake_object_order_depends_target_linkedList
+  DEP_FILE = CMakeFiles\linkedList.dir\linked_list\linkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedList.dir\linked_list
+
+build CMakeFiles/linkedList.dir/linked_list/llMain.cpp.obj: CXX_COMPILER__linkedList_unscanned_Debug E$:/CLionProjects/dataStructure/linked_list/llMain.cpp || cmake_object_order_depends_target_linkedList
+  DEP_FILE = CMakeFiles\linkedList.dir\linked_list\llMain.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedList.dir\linked_list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linkedList
+
+
+#############################################
+# Link the executable linkedList.exe
+
+build linkedList.exe: CXX_EXECUTABLE_LINKER__linkedList_Debug CMakeFiles/linkedList.dir/linked_list/linkedList.cpp.obj CMakeFiles/linkedList.dir/linked_list/llMain.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linkedList.exe
+  TARGET_IMPLIB = liblinkedList.dll.a
+  TARGET_PDB = linkedList.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -107,6 +146,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build dataStructure: phony dataStructure.exe
 
+build linkedList: phony linkedList.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -115,7 +156,7 @@ build dataStructure: phony dataStructure.exe
 #############################################
 # Folder: E:/CLionProjects/dataStructure/cmake-build-debug
 
-build all: phony dataStructure.exe
+build all: phony dataStructure.exe linkedList.exe
 
 # =============================================================================
 # Built-in targets

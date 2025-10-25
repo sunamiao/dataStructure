@@ -1,10 +1,17 @@
 # ninja log v6
-16	714	7815668728931596	CMakeFiles/dataStructure.dir/array.cpp.obj	63ff26898ce8de7f
-10	276	7815669594194640	CMakeFiles/dataStructure.dir/main.cpp.obj	d07b81fb26717a8
-509	611	7814656090571923	dataStructure.exe	255a7064bac5db20
-3	262	7815669370493344	CMakeFiles/dataStructure.dir/hash.cpp.obj	71513cb8fb6a22c8
-10	81	7815669955734165	dataStructure.exe	f1129e4e35773258
 2	267	7815670703260915	CMakeFiles/dataStructure.dir/main.cpp.obj	d07b81fb26717a8
-267	341	7815670705912154	dataStructure.exe	f1129e4e35773258
-11	270	7815671019562735	CMakeFiles/dataStructure.dir/hash.cpp.obj	71513cb8fb6a22c8
 270	343	7815671022159585	dataStructure.exe	f1129e4e35773258
+11	270	7815671019562735	CMakeFiles/dataStructure.dir/hash.cpp.obj	71513cb8fb6a22c8
+370	438	7825818284736599	linkedList.exe	b5b3e5f722f14d84
+4	265	7825817981839594	CMakeFiles/linkedList.dir/linked_list/llMain.cpp.obj	16a8e5cd3f0c39fc
+3	370	7825818281073994	CMakeFiles/linkedList.dir/linked_list/linkedList.cpp.obj	74ea1bb80a86f497
+3	373	7825819054948020	CMakeFiles/linkedList.dir/linked_list/linkedList.cpp.obj	74ea1bb80a86f497
+373	453	7825819058642549	linkedList.exe	b5b3e5f722f14d84
+3	364	7825819170361790	CMakeFiles/linkedList.dir/linked_list/linkedList.cpp.obj	74ea1bb80a86f497
+371	440	7825819174032202	linkedList.exe	b5b3e5f722f14d84
+2	262	7825819309288758	CMakeFiles/linkedList.dir/linked_list/llMain.cpp.obj	16a8e5cd3f0c39fc
+263	332	7825819311895896	linkedList.exe	b5b3e5f722f14d84
+2	256	7825819409309535	CMakeFiles/linkedList.dir/linked_list/llMain.cpp.obj	16a8e5cd3f0c39fc
+256	328	7825819411848023	linkedList.exe	b5b3e5f722f14d84
+3	360	7825820187727997	CMakeFiles/linkedList.dir/linked_list/linkedList.cpp.obj	74ea1bb80a86f497
+360	430	7825820191300816	linkedList.exe	b5b3e5f722f14d84

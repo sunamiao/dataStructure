@@ -7,3 +7,10 @@ add_executable(dataStructure main.cpp
 
         hash.cpp
         hash.h)
+
+# 链表 数据结构
+add_executable(linkedList
+
+        linked_list/linkedList.cpp
+        linked_list/linkedList.h
+        linked_list/llMain.cpp)
