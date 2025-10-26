@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "dataStructure",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,9 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "dataStructure::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-dataStructure-Debug-7aee9981715b12b7b74f.json",
-					"name" : "dataStructure",
+					"id" : "dataStructure_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dataStructure_main-Debug-a462c162c2a22007d57a.json",
+					"name" : "dataStructure_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linkedList_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linkedList_main-Debug-913b1a07945f1c4e32ba.json",
+					"name" : "linkedList_main",
 					"projectIndex" : 0
 				}
 			]
