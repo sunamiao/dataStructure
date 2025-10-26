@@ -161,3 +161,42 @@ void chain<T>::erase(int theIndex){
 ```
 7 方法 `insert`
 
+插入，在链表中索引为theIndex的位置插入新元素，需要首先找到索引为`theIndex-1`的元素节点，然后在该节点之后插入新元素节点。时间复杂度为*O(theIndxe)*。
+```c++
+template<class T>
+void chain<T>::insert(int theIndex){
+    //索引为theIndex的位置上插入新元素
+    chainNode<T>* preNode;
+    if(theIndxe < 0 || theIndex >listSize){
+        ostringstream s;
+        s << "index = " << theIndex << " size = " << listSize;
+        throw illegalIndex(s.str());
+    }
+    if(theIndex == 0) {firstNode = new chainNode<T>(theElement, firstNode);
+    else{
+        chainNode<T>* p= firstNode;
+        for(int i=0;i<theIndex;i++){
+            p = p->next;
+           
+        }
+        p->next = new chainNode<T>(theElement, p->next);
+    }
+    listSize++;
+}
+```
+
+8 输出链表
+```c++
+template<class T>
+void chain<T>::output(ostream& out) const
+{
+    for(chainNode<T>* currentNode = firstNode;
+    currentNode != NULL;
+    currentNode = currentNode->nexxt)
+    out << currentNode->element << " ";
+    )
+    template <class T>
+    osteam& operator << (ostream& out, const chain<T>& x)
+    
+}
+```

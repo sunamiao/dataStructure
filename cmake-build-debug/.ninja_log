@@ -3,12 +3,10 @@
 1	582	7831666813715549	CMakeFiles/linkedList.dir/linked_list/llMain.cpp.obj	16a8e5cd3f0c39fc
 7	491	7831669548743245	CMakeFiles/dataStructure_main.dir/stackl.cpp.obj	c394f7828ad27745
 662	1246	7831666820320324	linkedList.exe	5a695470cf04b662
-1	246	7831669856890559	build.ninja	c859266318bc28bf
-1	271	7831669476731572	CMakeFiles/linkedList_main.dir/linked_list/llMain.cpp.obj	3221be77cc498770
+1	246	7831875169583499	build.ninja	c859266318bc28bf
+3	271	7831669925259192	CMakeFiles/linkedList_main.dir/linked_list/llMain.cpp.obj	3221be77cc498770
 4	448	7831669476761584	CMakeFiles/linkedList_main.dir/linked_list/linkedList.cpp.obj	4d8400c6235ea971
-448	533	7831669481204198	linkedList_main.exe	618141c018257ba4
+272	355	7831669927934556	linkedList_main.exe	618141c018257ba4
 1	314	7831669548682298	CMakeFiles/dataStructure_main.dir/main.cpp.obj	f68a36d447a274c4
 4	483	7831669548723241	CMakeFiles/dataStructure_main.dir/hash.cpp.obj	1c7002eba255928a
 491	603	7831669553585584	dataStructure_main.exe	39180fee92a29984
-3	271	7831669925259192	CMakeFiles/linkedList_main.dir/linked_list/llMain.cpp.obj	3221be77cc498770
-272	355	7831669927934556	linkedList_main.exe	618141c018257ba4
