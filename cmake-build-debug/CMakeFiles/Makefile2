@@ -62,7 +62,9 @@ CMAKE_BINARY_DIR = C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/dataStructure.dir/all
+all: CMakeFiles/dataStructure_main.dir/all
+all: CMakeFiles/linkedList_main.dir/all
+all: CMakeFiles/stack.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +72,88 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/dataStructure.dir/clean
+clean: CMakeFiles/dataStructure_main.dir/clean
+clean: CMakeFiles/linkedList_main.dir/clean
+clean: CMakeFiles/stack.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/dataStructure.dir
+# Target rules for target CMakeFiles/dataStructure_main.dir
 
 # All Build rule for target.
-CMakeFiles/dataStructure.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target dataStructure"
-.PHONY : CMakeFiles/dataStructure.dir/all
+CMakeFiles/dataStructure_main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target dataStructure_main"
+.PHONY : CMakeFiles/dataStructure_main.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/dataStructure.dir/rule: cmake_check_build_system
+CMakeFiles/dataStructure_main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/dataStructure.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/dataStructure_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/dataStructure.dir/rule
+.PHONY : CMakeFiles/dataStructure_main.dir/rule
 
 # Convenience name for target.
-dataStructure: CMakeFiles/dataStructure.dir/rule
-.PHONY : dataStructure
+dataStructure_main: CMakeFiles/dataStructure_main.dir/rule
+.PHONY : dataStructure_main
 
 # clean rule for target.
-CMakeFiles/dataStructure.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/clean
-.PHONY : CMakeFiles/dataStructure.dir/clean
+CMakeFiles/dataStructure_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/clean
+.PHONY : CMakeFiles/dataStructure_main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/linkedList_main.dir
+
+# All Build rule for target.
+CMakeFiles/linkedList_main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList_main.dir\build.make CMakeFiles/linkedList_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList_main.dir\build.make CMakeFiles/linkedList_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug\CMakeFiles --progress-num=5,6,7 "Built target linkedList_main"
+.PHONY : CMakeFiles/linkedList_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/linkedList_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/linkedList_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/linkedList_main.dir/rule
+
+# Convenience name for target.
+linkedList_main: CMakeFiles/linkedList_main.dir/rule
+.PHONY : linkedList_main
+
+# clean rule for target.
+CMakeFiles/linkedList_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList_main.dir\build.make CMakeFiles/linkedList_main.dir/clean
+.PHONY : CMakeFiles/linkedList_main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack.dir
+
+# All Build rule for target.
+CMakeFiles/stack.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug\CMakeFiles --progress-num=8,9,10 "Built target stack"
+.PHONY : CMakeFiles/stack.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/stack.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\19642\CLionProjects\dataStructure\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/stack.dir/rule
+
+# Convenience name for target.
+stack: CMakeFiles/stack.dir/rule
+.PHONY : stack
+
+# clean rule for target.
+CMakeFiles/stack.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/clean
+.PHONY : CMakeFiles/stack.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,4 +1,5 @@
-E:/CLionProjects/dataStructure/cmake-build-debug/CMakeFiles/dataStructure_main.dir
-E:/CLionProjects/dataStructure/cmake-build-debug/CMakeFiles/linkedList_main.dir
-E:/CLionProjects/dataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CLionProjects/dataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/19642/CLionProjects/dataStructure/cmake-build-debug/CMakeFiles/dataStructure_main.dir
+C:/Users/19642/CLionProjects/dataStructure/cmake-build-debug/CMakeFiles/linkedList_main.dir
+C:/Users/19642/CLionProjects/dataStructure/cmake-build-debug/CMakeFiles/stack.dir
+C:/Users/19642/CLionProjects/dataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/19642/CLionProjects/dataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

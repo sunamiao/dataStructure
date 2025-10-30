@@ -116,24 +116,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named dataStructure
+# Target rules for targets named dataStructure_main
 
 # Build rule for target.
-dataStructure: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dataStructure
-.PHONY : dataStructure
+dataStructure_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dataStructure_main
+.PHONY : dataStructure_main
 
 # fast build rule for target.
-dataStructure/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/build
-.PHONY : dataStructure/fast
+dataStructure_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/build
+.PHONY : dataStructure_main/fast
+
+#=============================================================================
+# Target rules for targets named linkedList_main
+
+# Build rule for target.
+linkedList_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linkedList_main
+.PHONY : linkedList_main
+
+# fast build rule for target.
+linkedList_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList_main.dir\build.make CMakeFiles/linkedList_main.dir/build
+.PHONY : linkedList_main/fast
+
+#=============================================================================
+# Target rules for targets named stack
+
+# Build rule for target.
+stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stack
+.PHONY : stack
+
+# fast build rule for target.
+stack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/build
+.PHONY : stack/fast
+
+LinearLinked_stack/stack.obj: LinearLinked_stack/stack.cpp.obj
+.PHONY : LinearLinked_stack/stack.obj
+
+# target to build an object file
+LinearLinked_stack/stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/LinearLinked_stack/stack.cpp.obj
+.PHONY : LinearLinked_stack/stack.cpp.obj
+
+LinearLinked_stack/stack.i: LinearLinked_stack/stack.cpp.i
+.PHONY : LinearLinked_stack/stack.i
+
+# target to preprocess a source file
+LinearLinked_stack/stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/LinearLinked_stack/stack.cpp.i
+.PHONY : LinearLinked_stack/stack.cpp.i
+
+LinearLinked_stack/stack.s: LinearLinked_stack/stack.cpp.s
+.PHONY : LinearLinked_stack/stack.s
+
+# target to generate assembly for a file
+LinearLinked_stack/stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/LinearLinked_stack/stack.cpp.s
+.PHONY : LinearLinked_stack/stack.cpp.s
+
+LinearLinked_stack/stackmain.obj: LinearLinked_stack/stackmain.cpp.obj
+.PHONY : LinearLinked_stack/stackmain.obj
+
+# target to build an object file
+LinearLinked_stack/stackmain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/LinearLinked_stack/stackmain.cpp.obj
+.PHONY : LinearLinked_stack/stackmain.cpp.obj
+
+LinearLinked_stack/stackmain.i: LinearLinked_stack/stackmain.cpp.i
+.PHONY : LinearLinked_stack/stackmain.i
+
+# target to preprocess a source file
+LinearLinked_stack/stackmain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/LinearLinked_stack/stackmain.cpp.i
+.PHONY : LinearLinked_stack/stackmain.cpp.i
+
+LinearLinked_stack/stackmain.s: LinearLinked_stack/stackmain.cpp.s
+.PHONY : LinearLinked_stack/stackmain.s
+
+# target to generate assembly for a file
+LinearLinked_stack/stackmain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/LinearLinked_stack/stackmain.cpp.s
+.PHONY : LinearLinked_stack/stackmain.cpp.s
 
 hash.obj: hash.cpp.obj
 .PHONY : hash.obj
 
 # target to build an object file
 hash.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/hash.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/hash.cpp.obj
 .PHONY : hash.cpp.obj
 
 hash.i: hash.cpp.i
@@ -141,7 +215,7 @@ hash.i: hash.cpp.i
 
 # target to preprocess a source file
 hash.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/hash.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/hash.cpp.i
 .PHONY : hash.cpp.i
 
 hash.s: hash.cpp.s
@@ -149,15 +223,63 @@ hash.s: hash.cpp.s
 
 # target to generate assembly for a file
 hash.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/hash.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/hash.cpp.s
 .PHONY : hash.cpp.s
+
+linked_list/linkedList.obj: linked_list/linkedList.cpp.obj
+.PHONY : linked_list/linkedList.obj
+
+# target to build an object file
+linked_list/linkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList_main.dir\build.make CMakeFiles/linkedList_main.dir/linked_list/linkedList.cpp.obj
+.PHONY : linked_list/linkedList.cpp.obj
+
+linked_list/linkedList.i: linked_list/linkedList.cpp.i
+.PHONY : linked_list/linkedList.i
+
+# target to preprocess a source file
+linked_list/linkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList_main.dir\build.make CMakeFiles/linkedList_main.dir/linked_list/linkedList.cpp.i
+.PHONY : linked_list/linkedList.cpp.i
+
+linked_list/linkedList.s: linked_list/linkedList.cpp.s
+.PHONY : linked_list/linkedList.s
+
+# target to generate assembly for a file
+linked_list/linkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList_main.dir\build.make CMakeFiles/linkedList_main.dir/linked_list/linkedList.cpp.s
+.PHONY : linked_list/linkedList.cpp.s
+
+linked_list/llMain.obj: linked_list/llMain.cpp.obj
+.PHONY : linked_list/llMain.obj
+
+# target to build an object file
+linked_list/llMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList_main.dir\build.make CMakeFiles/linkedList_main.dir/linked_list/llMain.cpp.obj
+.PHONY : linked_list/llMain.cpp.obj
+
+linked_list/llMain.i: linked_list/llMain.cpp.i
+.PHONY : linked_list/llMain.i
+
+# target to preprocess a source file
+linked_list/llMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList_main.dir\build.make CMakeFiles/linkedList_main.dir/linked_list/llMain.cpp.i
+.PHONY : linked_list/llMain.cpp.i
+
+linked_list/llMain.s: linked_list/llMain.cpp.s
+.PHONY : linked_list/llMain.s
+
+# target to generate assembly for a file
+linked_list/llMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList_main.dir\build.make CMakeFiles/linkedList_main.dir/linked_list/llMain.cpp.s
+.PHONY : linked_list/llMain.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -165,7 +287,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +295,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 stackl.obj: stackl.cpp.obj
@@ -181,7 +303,7 @@ stackl.obj: stackl.cpp.obj
 
 # target to build an object file
 stackl.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/stackl.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/stackl.cpp.obj
 .PHONY : stackl.cpp.obj
 
 stackl.i: stackl.cpp.i
@@ -189,7 +311,7 @@ stackl.i: stackl.cpp.i
 
 # target to preprocess a source file
 stackl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/stackl.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/stackl.cpp.i
 .PHONY : stackl.cpp.i
 
 stackl.s: stackl.cpp.s
@@ -197,7 +319,7 @@ stackl.s: stackl.cpp.s
 
 # target to generate assembly for a file
 stackl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure.dir\build.make CMakeFiles/dataStructure.dir/stackl.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructure_main.dir\build.make CMakeFiles/dataStructure_main.dir/stackl.cpp.s
 .PHONY : stackl.cpp.s
 
 # Help Target
@@ -208,10 +330,24 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... dataStructure
+	@echo ... dataStructure_main
+	@echo ... linkedList_main
+	@echo ... stack
+	@echo ... LinearLinked_stack/stack.obj
+	@echo ... LinearLinked_stack/stack.i
+	@echo ... LinearLinked_stack/stack.s
+	@echo ... LinearLinked_stack/stackmain.obj
+	@echo ... LinearLinked_stack/stackmain.i
+	@echo ... LinearLinked_stack/stackmain.s
 	@echo ... hash.obj
 	@echo ... hash.i
 	@echo ... hash.s
+	@echo ... linked_list/linkedList.obj
+	@echo ... linked_list/linkedList.i
+	@echo ... linked_list/linkedList.s
+	@echo ... linked_list/llMain.obj
+	@echo ... linked_list/llMain.i
+	@echo ... linked_list/llMain.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

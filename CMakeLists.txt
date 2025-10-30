@@ -14,3 +14,7 @@ add_executable(linkedList_main
         linked_list/linkedList.cpp
         linked_list/linkedList.h
 )
+add_executable(stack LinearLinked_stack/stackmain.cpp
+        LinearLinked_stack/stack.cpp
+
+)
